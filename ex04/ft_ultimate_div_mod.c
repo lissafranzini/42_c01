@@ -6,10 +6,12 @@
 /*   By: ldellefr <ldellefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 16:59:25 by ldellefr          #+#    #+#             */
-/*   Updated: 2023/06/05 17:12:53 by ldellefr         ###   ########.fr       */
+/*   Updated: 2023/06/05 17:18:55 by ldellefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//function updates values of a and b
+//variable temp is used to store one of the values to avoid overwriting
 void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	temp;
