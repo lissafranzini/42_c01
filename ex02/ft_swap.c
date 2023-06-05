@@ -6,10 +6,12 @@
 /*   By: ldellefr <ldellefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 15:28:14 by ldellefr          #+#    #+#             */
-/*   Updated: 2023/06/05 15:40:44 by ldellefr         ###   ########.fr       */
+/*   Updated: 2023/06/05 17:17:33 by ldellefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//function swaps values of a and b
+//variable temp is used to store one of the values to avoid overwriting
 void	ft_swap(int *a, int *b)
 {
 	int	temp;
