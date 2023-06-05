@@ -6,11 +6,11 @@
 /*   By: ldellefr <ldellefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 15:10:51 by ldellefr          #+#    #+#             */
-/*   Updated: 2023/06/05 15:26:46 by ldellefr         ###   ########.fr       */
+/*   Updated: 2023/06/05 17:15:33 by ldellefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+//nbr is a pointer another pointer function sets value to 42.
 
 void	ft_ultimate_ft(int *********nbr)
 {
