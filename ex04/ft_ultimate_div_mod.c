@@ -6,12 +6,14 @@
 /*   By: ldellefr <ldellefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 16:59:25 by ldellefr          #+#    #+#             */
-/*   Updated: 2023/06/05 17:18:55 by ldellefr         ###   ########.fr       */
+/*   Updated: 2023/06/07 14:34:36 by ldellefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//function updates values of a and b
+//function stores result of divison in a, and module in b
 //variable temp is used to store one of the values to avoid overwriting
+//#include<stdio.h>
+
 void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	temp;
@@ -35,6 +37,6 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	printf("valor do ponteiro a eh %d\n", *a);
 	printf("valor do ponteiro b eh %d\n", *b);
 	ft_ultimate_div_mod(a, b);
-	printf("valor do ponteiro a ficou %d\n", *a);
-	printf("valor do ponteiro b ficou %d\n", *b);
+	printf("valor da divisão, alocada em a, ficou %d\n", *a);
+	printf("valor do modulo, alocado em b, ficou %d\n", *b);
 }*/

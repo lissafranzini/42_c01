@@ -6,11 +6,12 @@
 /*   By: ldellefr <ldellefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 15:10:51 by ldellefr          #+#    #+#             */
-/*   Updated: 2023/06/05 17:15:33 by ldellefr         ###   ########.fr       */
+/*   Updated: 2023/06/07 14:04:51 by ldellefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //nbr is a pointer another pointer function sets value to 42.
+//#include<stdio.h>
 
 void	ft_ultimate_ft(int *********nbr)
 {
@@ -30,7 +31,7 @@ void	ft_ultimate_ft(int *********nbr)
 	int	********nbr8;
 	int	*********nbr9;
 
-	a = 2;
+	a = -27845;
 	nbr1 = &a;
 	nbr2 = &nbr1;
 	nbr3 = &nbr2;
